@@ -1,0 +1,108 @@
+
+
+body
+{
+    background-color: #F4F4F4;
+}
+
+p
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.row
+{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.radio
+{
+    text-align: center;
+}
+
+.radio label
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.radio input[type="radio"], .radio-inline input[type="radio"], .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"]
+{
+    margin-left: 0px;
+}
+
+.vertical-center {
+  min-height: calc(100% - 15px); /*-15px from the Top Color Bar*/
+  min-height: calc(100vh - 15px); /*-15px from the Top Color. Otherwise, scroll bar will appear Bar*/
+      
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex; 
+    -webkit-box-align : center;
+  -webkit-align-items : center;
+       -moz-box-align : center;
+       -ms-flex-align : center;
+          align-items : center;
+  width: 100%;
+         -webkit-box-pack : center;
+            -moz-box-pack : center;
+            -ms-flex-pack : center;
+  -webkit-justify-content : center;
+          justify-content : center;
+}
+
+.container-narrow
+{
+    max-width: 350px;
+}
+
+.main-block
+{
+    background-color: #ffffff;
+}
+
+.blue-block
+{
+    background-color: #0289D3;
+    height: 7px;
+}
+
+.text-primary
+{
+    font-size: 20px;
+    color: #1C1C1C;
+}
+
+.text-secondary
+{
+    font-size: 11px;
+    color: #898989;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.text-bold-1
+{
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 35px;
+}
+
+.text-bold-2
+{
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.radio label
+{
+    font-size: 20px;
+    font-weight: 900;
+}
+

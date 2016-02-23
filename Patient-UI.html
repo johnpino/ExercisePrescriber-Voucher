@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="">
         <meta name="author" content="">
-        <title>Clinician UI</title>
+        <title>Patient UI</title>
         <!-- Bootstrap core CSS -->
         <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
         <!-- Custom styles for this template -->
@@ -24,28 +24,12 @@
 </div>
                 <div class="col-md-12 main-block col-lg-12 col-sm-12 col-xs-12 text-center"> 
                     <img src="img/logo.jpg" class="img-responsive center-block">
-                    <p class="text-primary">Would you like to add a <span class="text-bold-1">VOUCHER</span><br>for your patient to <br><span class="text-bold-2">GIFT</span>?</p>
-                    <p class="text-secondary">Show them how much you care&nbsp;about him and his loved ones.</p>
-                    <form>
-                        <div class="radio"> 
-                            <label class="control-label"> 
-                                <br>
-                                <input type="radio" name="group" value="option1" checked="">
-                                <br>£5
-                            </label>                             
-                            <label class="control-label"> 
-                                <input type="radio" name="group" value="option1" checked="">
-                                <br>£10
-                            </label>                             
-                            <label class="control-label"> 
-                                <input type="radio" name="group" value="option1" checked="">
-                                <br>£15
-                            </label>                             
-                            <label class="control-label"> 
-                                <input type="radio" name="group" value="option1" checked="">
-                                <br>£20
-                            </label>
-                        </div>
+                    <p class="text-primary">Hi &lt;Patient&gt;, here is a <br><span class="text-bold-1">£5 VOUCHER</span><br>for a person you<br>care about<br></p>
+                    <p class="text-secondary">You and your loved ones are important for us.&nbsp;Please show your caring too.</p>
+                    <form class="">
+                        <input type="email" class="form-control" placeholder="From" required>
+                        <input type="email" class="form-control" placeholder="To" required>
+                        <textarea class="form-control" rows="10"></textarea>
                         <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
                             <button type="submit" class="btn">Send</button>                             
                         </div>

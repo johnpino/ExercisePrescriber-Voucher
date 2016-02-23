@@ -12,6 +12,12 @@ p
     text-align: center;
 }
 
+img
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .row
 {
     margin-left: 0px;
@@ -21,6 +27,7 @@ p
 .radio
 {
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .radio label
@@ -28,11 +35,46 @@ p
     padding-left: 10px;
     padding-right: 10px;
     text-align: center;
+    font-size: 20px;
+    font-weight: 900;
 }
 
 .radio input[type="radio"], .radio-inline input[type="radio"], .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"]
 {
     margin-left: 0px;
+}
+
+a, a:focus, a:hover, a:visited
+{
+    color: #898989;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 11px;
+}
+
+.btn
+{
+    background-color: #0289D3;
+    border-radius: 0px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    min-width: 130px;
+    margin-bottom: 20px;
+}
+
+.form-control
+{
+    border-radius: 0px;
+    border: 0px;
+    background-color: #efefef;
+    color: #606060;
+    font-style: italic;
+    font-size: 14px;
+    -webkit-box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0);
+    box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0);
+    margin-bottom: 16px;
+    margin-top: 15px;
 }
 
 .vertical-center {
@@ -98,11 +140,5 @@ p
 {
     font-weight: 900;
     font-size: 20px;
-}
-
-.radio label
-{
-    font-size: 20px;
-    font-weight: 900;
 }
 
